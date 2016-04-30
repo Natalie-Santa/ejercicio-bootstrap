@@ -4,18 +4,37 @@
 	<meta charset="UTF-8">
 	<title>Bootstrap: Grid System</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
-
-    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
-    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->	
+	<link rel="stylesheet" href="css/main.css">  
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
-
+	<!-- header -->
+  <header class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5"> 
+          <h1>Name site</h1>         
+        </div>
+        <div class="col-md-7 enlaces">
+          <nav class="navbar" role="navigation">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><strong><span class="glyphicon glyphicon-list-alt
+"></span> Noticias</strong></a></li>
+                <li><a class="b-right" href="#"><strong><span class="glyphicon glyphicon-pencil"></span> Enlaces RSS</strong></a></li>
+                <!--pencil por suscripcion-->
+              </ul> 
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="btn-borderblack" placeholder="Ingresa tu búsqueda">
+                </div>
+                <button type="submit" class="btn btn-gris"><strong>Buscar</strong></button>
+              </form>
+           </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
 	<!-- Incluir todos tus scripts apartir de este punto -->
     <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
     <script src="js/jquery-1.11.3.min.js"></script>
