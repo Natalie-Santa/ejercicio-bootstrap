@@ -1,5 +1,7 @@
 .gris-b {
     color: #9e9e9e;
+    margin-top: 5px;
+    font-weight: 700;
 }
 .gris-c {
     color: #b5b5b5;
@@ -7,10 +9,26 @@
 .white {
     color: white;
 }
+.border-r{
+    border-right: 2px solid black;
+}
+.f-12 {
+    font-size: 12px;
+}
+.f-11 {
+    font-size: 11px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-15{
+    margin-top: 15px;
+}
 /*header*/
 .nav a {
 	color: #000000;
-	padding: 1px 15px !important;
+	padding: 4px 16px !important;
+    font-size: 18px;
 }
 .btn-gris {
 	color: #000000;
@@ -43,25 +61,108 @@
 	padding: 15px 0;
 }
 .enlaces {
-	margin-top: 1px;
+	margin-top: 13px;
 }
 /*menu*/
 .gris {
     background-color: #d4d4d4;
-    font-weight: 700;
-    padding-top: 40px
+    padding-top: 40px; 
 }
 .menu li {
     margin-bottom: -16px;
+    padding: 15px;
 }
 /*principal*/
 h4 {
     color: white;
     background-color: #919191;
+    padding: 10px 5px;
 }
 .principal a:first-child{
     color: black;
 }
 .fin {
     border-bottom: 1px solid #d4d4d4;
+}
+.principal {
+    margin-top: 20px;
+    margin-left: -25px;
+    border-bottom: 4px solid #403F3F;
+}
+.etiquetas a{
+    text-decoration: underline;
+    color:  #9e9e9e;
+    font-weight: 700;
+}
+#black {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#webzone {
+    margin-top: 5px;
+    font-size: 12px;
+}
+.image p{
+    height: 150px;
+    background-color: #9e9e9e;
+    text-align: center;
+    padding-top: 50px;
+}
+.video iframe{
+    margin-left: 40px;
+}
+.video{
+    background-color: #d4d4d4;
+}
+.video h4{
+    margin-top: 0px;
+}
+.video p{
+    margin: 15px 0 15px 15px;
+}
+.video h5{
+    margin-left: 15px;
+}
+.calendario h4{
+    margin-left: -10px;
+}
+.dia p{
+    text-align: center;
+    font-weight: 700;
+}
+.dia {
+    background-color: #9e9e9e;
+}
+.dia p:first-child{
+    margin-top: 5px;
+}
+.informacion h5{
+    margin: 2px 0;
+}
+.informacion p {
+    margin-bottom: 1px;
+}
+.pb-5{
+    padding-bottom: 5px;
+}
+.t-black{
+    font-size: 18px;
+    font-weight: 700;
+}
+.t-deco{
+    text-decoration: underline;
+    color: #9e9e9e;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.m-0{
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+.enlaces-2 ul{
+    text-decoration: none;
+}
+.enlaces-2 a{
+    font-weight: 700;
 }
