@@ -87,7 +87,7 @@ h4 {
 .principal {
     margin-top: 20px;
     margin-left: -25px;
-    border-bottom: 4px solid #403F3F;
+    border-bottom: 5px solid #403F3F;
 }
 .etiquetas a{
     text-decoration: underline;
@@ -162,7 +162,46 @@ h4 {
 }
 .enlaces-2 ul{
     text-decoration: none;
+    list-style: none;
 }
 .enlaces-2 a{
     font-weight: 700;
+}
+.magazine{
+    background-color: #ebebeb;
+    margin-left: 1px;
+    margin-top: 10px;
+}
+.magazine h4{
+    color: black;
+    background-color: #ebebeb;
+    margin-top: 0px;
+    margin-left: -5px;
+}
+.magazine h4:first-child {
+    margin-bottom: -18px;
+}
+.sub-t{
+    margin-bottom: 0px;
+}
+.three p{
+    margin-top: 7px;
+}
+footer{
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 15px;
+}
+footer ul{
+    list-style: none;
+    margin-left: -60px;
+}
+footer a{
+    color: black;
+}
+footer p{
+    margin-left: -20px;
+}
+.m-l{
+    margin-left: 45px;
 }
